@@ -21,4 +21,5 @@ public class CatalogServiceImpl implements CatalogService{
     public List<CatalogEntity> getAllCatalogs() {
         return repository.findAll();
     }
+
 }
