@@ -41,9 +41,8 @@ public class WebSecurity {
     }
     @Bean
     public AuthenticationFilter getAuthenticationFilter() throws Exception {
-        AuthenticationFilter authenticationFilter = new AuthenticationFilter();
-        authenticationFilter.setAuthenticationManager(authenticationConfiguration.getAuthenticationManager());
-
+        AuthenticationFilter authenticationFilter =
+                new AuthenticationFilter(authenticationConfiguration.getAuthenticationManager(),userService,env);
         return authenticationFilter;
     }
     @Bean
