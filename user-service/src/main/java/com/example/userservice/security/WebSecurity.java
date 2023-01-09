@@ -32,8 +32,8 @@ public class WebSecurity {
         http.csrf().disable();
         //http.authorizeHttpRequests().anyRequest().permitAll();
         http.authorizeHttpRequests()
-                .requestMatchers("/**")
-                .permitAll()
+                .requestMatchers("/actuator/**").permitAll()
+                .requestMatchers("/**").permitAll()
                 .and()
                 .addFilter(getAuthenticationFilter());
         http.headers().frameOptions().disable();
