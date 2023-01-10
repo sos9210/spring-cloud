@@ -9,6 +9,8 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 spring:
+  profiles:
+    active: prod
   application:
     name: apigateway-service
   config:
