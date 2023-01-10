@@ -8,4 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: file://D:\study\spring-cloud\
+#          uri: file://D:\study\spring-cloud\
+          uri: https://github.com/sos9210/spring-cloud.git
