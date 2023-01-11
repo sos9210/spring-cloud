@@ -4,13 +4,19 @@ server:
 spring:
   application:
     name: user-service
+  rabbitmq:
+    host: 127.0.0.1
+    port: 15672
+    username: guest
+    password: guest
   cloud:
     config:
-      name: ecommerce
+      uri: http://127.0.0.1:8888
+      name: config-service
   config:
     import: "optional:configserver:http://localhost:8888/"
-  profiles:
-    active: dev
+#  profiles:
+#    active: dev
   #eureka.client.register-with-eureka: true --EUREKA????? ???? ??? ????? ?????? ???? ?? true? ???? ?
   h2:
     console:
@@ -39,7 +45,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh, health, beans
+        include: refresh, health, beans, busrefresh
 #token:
 #  expiration_time: 86400000
 #  secret: user_token
