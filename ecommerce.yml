@@ -1,3 +1,6 @@
 token: 
     expiration_time: 86422222
-    secret: config_user_token_change
+    secret: '{cipher}AQAmpW/CYoJI0KN51iCV55ZPvYG5yImXWKgOXNiDSUoGgjT7PjW0Yyms9Oqd8PruSUWpHU6QXe8gE7th2AjB16hLZi7E7iVkgvJKQDHOtpe8Kn2rxoyedkL6I5BVnATXiC6+sra+0WExj70xFl0XW+8qtDJ5cCYbpsgp7jWCFAh0rVIEl5bvHgUbztHwvj65Zrv7X7frexEo+t6LRHyW4UxHaQTGLHX9iPtJ+cOEtnYLqKG9GROB/rDJ84g6YnftuJ6sTZYUZhRGCUJwWB4/mGKqzS99nEEkbNmxGiKZkD7cX/daKaDkTwd7sZTDS7UbbMHj/UHsiKFiEY3mCItyH+yXFHI7mBAXSb5janUsHajzNGQ9n9FXQR0cjiRYm7l0ph389ua+kjHWXhOvOEhnNrlv'
+
+gateway: 
+    ip: 192.168.0.8

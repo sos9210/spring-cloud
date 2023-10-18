@@ -1,2 +1,6 @@
 encrypt:
-  key: 3421abCdgioy0290odkljvblx92pq026
+#  key: 3421abCdgioy0290odkljvblx92pq026
+  key-store:
+    location: file:${user.home}/Work/keystore/apiEncryptionKey.jks
+    password: test1234
+    alias: sungApiEncryptionKey

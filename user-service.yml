@@ -7,7 +7,7 @@ spring:
         url: jdbc:h2:mem:testdb
         dirver-class-name: org.h2.Driver
         username: sa
-        password: '{cipher}2106b4144de968165b2f30b1172c9ba728570d0d9d99ad4fef771b6543fd219b'
+        password: '{cipher}AQA43S2kJUCiCHPlV1w1TzC5cZCUrCabe03gSgZ1hSnIVEJgN41Z8onrIoPX5NOzXN5mtWQ966oxbkiDwIqYGR2svNLViPOEq25hZ5YZZ+l6T10XrPlY0YTQq6/hxpk16Avg5uKFjHW00ZDh1OGc7uQzhXhghZHBNl5I9x2ptd0zg44ItNVsSTs+s5yWH8lLyGRAQhBp1G1tkyNiNtX7P4Oi2P0INJg2BOetRJZYW5zmMeKm+FRcnyT9RSBYpPsjLFfLdr7pXfS6Yf74x1Sv1ep5FuPikJXPb06kCmSyldRiRgLKatU+UZbc4yVPQIA3Demqizbs/5m92rlSq1tLtRdMZJVewqGJmyJvtONPMw6vcUZ25+ei5jqGNKOaVZnXGQE='
 
 gateway: 
     ip: 192.168.0.8
